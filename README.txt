@@ -1,0 +1,10 @@
+Author: Becca Dura
+CSCI 5609 Assignment 4 (Due: February 23, 2022)
+
+Method 1: For the first method where I overlaid the before and after points, I chose two contrasting colors (yellow and blue) so viewers could differentiate between the colors better.  Since the after points (yellow) tended to be lower in the middle of the surface, I made those points larger than the before points (blue) to increase their visibility in the image.
+
+Method 2: For the second method, I created a surface of the after points and then used a colormap I created in assignment 2 to show the elevation change from the before to after surfaces.  I chose a sequential colormap for the elevation change, as it is easier to see where the change is higher vs. lower than it is in a divergent colormap, especially without seeing a colormap legend.  The colormap I chose also had some good contrast between the different sections of the colormap.  The redder areas show less elevation change, and the yellower areas show more elevation change.
+
+Method 3: For the third method, I overlaid profile views of the before points and the after points.  The before profile view is shown by the black line, and the after profile view is shown by the white line.  The width of each line was also increased to make the profile views more visible against the background in Unity.  The profile views were created by selecting all the points in the middle row of the each surface and turning those points into lines.
+
+Method 4 (extra): For the fourth method, I created side by side surfaces using the before and after points and used a colormap to show the elevation change on both.  To do this, I used the surface created in method 2 and duplicated it so there was a similar surface of the before points.  I used the same colormap from method 2 for both surfaces for the same reasons listed above.  I used the same colormap for both surfaces since using two different colormaps would add unnecessary detail and make it harder to interpret the visualizations.
